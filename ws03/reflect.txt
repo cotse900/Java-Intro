@@ -1,0 +1,15 @@
+/**********************************************
+ Workshop 3
+ Course: JAC444 - Semester 4
+ Last Name: Tse
+ First Name: Chungon
+ ID: 154928188
+ Section: NAA
+ This assignment represents my own work in accordance with Seneca Academic Policy.
+ CHUNGON
+ Date: 15 Feb 2023
+ **********************************************/
+
+This workshop was relatively easier than previous ones. The focus was on inheritance only, and I learned to use derived classes, super, extends, and now I am familiar with constructors in Java. Another thing is I am also familiar with JavaDoc. It still sounds superfluous to comment every place, but JavaDoc makes me focus better on which elements to write on: constructor (and how many args), method, function, and class, etc. It is also an art of writing good JavaDoc.
+
+I think the main work was on writing the tester class instead. This was the first time in this class to have multiple classes involving inheritance and this is the standard of Java where different classes serve like modules and they work together. As I become familiar with Java, it also grows on me.
