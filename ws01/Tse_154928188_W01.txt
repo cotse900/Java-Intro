@@ -1,0 +1,15 @@
+/**********************************************
+ Workshop 1 Task 3
+ Course: JAC444 - Semester 4
+ Last Name: Tse
+ First Name: Chungon
+ ID: 154928188
+ Section: NAA
+ This assignment represents my own work in accordance with Seneca Academic Policy.
+ CHUNGON
+ Date: 1 Feb 2023
+ **********************************************/
+
+I started off doing the basics in Java in this exercise. Java essentially enforces class. Using IntelliJ, I came to know how Java has elaborate file structure as I see in an IDE. Java's basics also show clearly how things like methods and "static" are important for even simple programs. These are similar to what I learned in C++ before. It is a pleasant experience writing Java when many things are streamlined. For instance, there is the way to refactor (renaming files) without having to set up everything again like in C.
+
+Similarly, while Java is strong-typed like C, it is powerful for offering many features like, for instance, hasNextInt, the byte data type, and the use of "new" for initializing class objects. I am quite sure students caxn learn coding from Java first, but it's simply a breeze when I came across C before, just to see Java as an obligatory OOP language.
