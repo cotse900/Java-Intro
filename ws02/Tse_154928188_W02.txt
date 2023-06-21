@@ -1,0 +1,21 @@
+/**********************************************
+ Workshop 2
+ Course: JAC444 - Semester 4
+ Last Name: Tse
+ First Name: Chungon
+ ID: 154928188
+ Section: NAA
+ This assignment represents my own work in accordance with Seneca Academic Policy.
+ CHUNGON
+ Date: 8 Feb 2023
+ **********************************************/
+
+I expected this workshop to be on getters and setters, but I ended up not using many. There was ample practice, however, of 2d arrays. I like how I instead got to practice adjusting string output which was very similar to C language.
+
+Since I was using IntelliJ, I probably had a different experiences from the mainstream. I appreciate this IDE for suggesting what to do. For instance, IntelliJ would say double Sales[][] is a C-style way of writing a 2d array, so, and while it was not quite a main point in this current topic, the software prompt was to change it into double[][] Sales. Instead of "+" for strings, it suggested to me StringBuilder.append.
+
+I think for 2d arrays it is important to know the bound. I tried multiple times to produce some output that looked similar to what was given in the topic. So, because the 2 dimensions were very similar (product and salesperson), you need to sort out which is which. The moment that your code goes out of bound, then you know you hard-coded an array index in the wrong place. For more elaborate coding, then it would warrant a better way of writing, such as having the array indices as variables.
+
+The enhanced for statement is great, just that the array has to appear/be declared first before we can use it.
+
+By then, I was quite used to using JavaDoc but I still think, while it was nice to have some documentation, and it was a good practice, constructors, getters and setters were not so important to warrant documentation. I just did not like the warnings given by my IDE telling me to document everything.
