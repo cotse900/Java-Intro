@@ -1,0 +1,21 @@
+/**********************************************
+ Workshop 4
+ Course: JAC444 - Semester 4
+ Last Name: Tse
+ First Name: Chungon
+ ID: 154928188
+ Section: NAA
+ This assignment represents my own work in accordance with Seneca Academic Policy.
+ CHUNGON
+ Date: 22 Feb 2023
+ **********************************************/
+
+This exercise was about interface, inheritance, exception handling, and it started with a nice UML table.
+
+It did not look difficult, but I found it to be a lot of work. There were so many getters and setters here and there, and I need to get the constructors right in conjunction with getters and setters. I also spent quite some time to make the tester module.
+
+To test properly, the best I did was to assume every parameter (wage, hours, commission rate, base salary) can be zero at the lowest. The reason was it did not make sense to exclude zero, declare private double parameters without giving them a value (so, practically, zero), and yet throw an arithmetic error. I thought of this design many times and decided to write throw statements only in the modules, not the tester. The only exception was I was not asked to validate invoice, so I had no validation there.
+
+Many setters were superfluous, but it was a requirement, so I quoted setters in constructors.
+
+It is possible to set the reward rate in BasePlusCommissionEmployee, but since there was a requirement, I put it in the tester, and Reward is one of the very few hard-coded variables.
