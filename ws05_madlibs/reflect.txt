@@ -1,0 +1,36 @@
+/**********************************************
+ Workshop 5
+ Course: JAC444 - Semester 4
+ Last Name: Tse
+ First Name: Chungon
+ ID: 154928188
+ Section: NAA
+ This assignment represents my own work in accordance with Seneca Academic Policy.
+ CHUNGON
+ Date: 8 Mar 2023
+ **********************************************/
+
+This exercise was mainly about input, output, and print streams, among other prior concepts.
+
+It was just one class but then I spent more time on how to get the files and input/output correct. First, it was important to sort out the choice between C, V, and Q. I did extra mileage to think out a solution. In pseudo code, it is:
+
+Type C, V, or Q
+Type Q->quit
+Type C or V->type input file name
+If input file is not correct->Type correct file name or type q to quit
+If input file is correct & type C->Generate Mad Lib
+If input file is correct & type V->Read File
+
+Reading and writing are not new. The main meat was in GenerateMadLib:
+
+GenerateMadLib(user input, input file, output combining user input and input file)
+1. Assume a throw statement and use a try block for PrintStream
+2. scan input file lines
+3. set a local scanner to write lines with the input file's content
+4. other than 3 (content to be printed as is), extract any placeholder string in the input file that contains < anything-possible >
+5. ignore < and >, replace - with space, such as "anything possible"
+6. add prompt lines of "Please type a/an" depending on the placeholder's first letter plus the placeholder content (noun, adjective...)
+7. accept user input and write in the user input plus extra space in the place of the placeholder
+8. combine input file with placeholders replaced by user input
+
+The main difficulty was in thinking out the code from the above. Specifically, the point on thinking out the placement and use of String and Scanner. The point is to differentiate between user input using Scanner and scanning the input file's content per se. We only change the placeholders in the input file with user input, to put it simply.
