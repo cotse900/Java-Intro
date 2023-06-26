@@ -1,0 +1,31 @@
+/**********************************************
+ Workshop 8
+ Course: JAC444 - Semester 4
+ Last Name: Tse
+ First Name: Chungon
+ ID: 154928188
+ Section: NAA
+ This assignment represents my own work in accordance with Seneca Academic Policy.
+ CHUNGON
+ Date: 28 Mar 2023
+ **********************************************/
+
+This workshop is rather short and only on lambda expressions. I was already using lambda in workshop 6 and workshop 7.
+
+Applying the double[] array in the interface, we determin the maximum value, minimum value, sum of array elements, and the average value, all as doubles.
+
+The counter function returns a double value, but for my presentation purpose, I cast it into integer.
+
+The main focus is on the lambda:
+
+    public static final DoubleArrayFunctions MaxVal = array -> {
+        double max = Double.NEGATIVE_INFINITY;
+        for (double d : array) {
+            if (d > max) {
+                max = d;
+            }
+        }
+        return max;
+    };
+
+For all 4 required functions plus counter, it is possible to use a lambda for succinct code.
