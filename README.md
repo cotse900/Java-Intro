@@ -1,3 +1,13 @@
 # Java-Intro
 - My work in Introduction to Java for C++ programmers
-- Some workshops are posted in other repos
+- WS01: encoding and decoding, Craps
+- WS02: grocery list
+- WS03: student ticket vending machine
+- WS04: payroll system, bonus, commission
+- WS05: madlibs
+- WS06: [baby name ranking, guess a number](https://github.com/cotse900/Java-baby-name-ranking)
+- WS07: [address book](https://github.com/cotse900/Java-address-book)
+- WS08: double array functions
+- WS09: Levenshtein distance
+- WS10: matrices, dining philosophers
+- WS11: simulated chat server
