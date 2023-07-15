@@ -1,0 +1,19 @@
+/**********************************************
+ Workshop 10
+ Course: JAC444 - Semester 4
+ Last Name: Tse
+ First Name: Chungon
+ ID: 154928188
+ Section: NAA
+ This assignment represents my own work in accordance with Seneca Academic Policy.
+ CHUNGON
+ Date: 17 April 2023
+ **********************************************/
+
+This workshop is on concurrence and multi-threading.
+
+Task 1 is on multiplying matrices and comparing sequential multiplication and multiplication with 4 threads. We expect the latter to go faster since it is multi-threading. startMatrix generates matrices a and b and both are 2000 times 2000 integers. In parallelMultiplyMatrix, it uses ExecutorService to start 4 threads and borrows the computation of ParallelMultiply to calculate all the matrices before the executor shuts down. ParallelMultiply does the heavy lifting and sets every localRes of multiplication to zero to avoid a stack overflow. In sequentialMultiplyMatrix, it simply does a simple multiplication of matrices and returns the result.
+
+Task 2 is the classical dining philosophers in which case we write about a variant of picking chopsticks when not every philosopher gets to eat at the same time. I picked solution 2. For clarity, there are separate Chopstick and Philosopher classes. Chopstick decides the synchronized method of pickUp and putDown of chopsticks and they deploy wait() and notify() respectively in threading. In Philosopher, we define how Philosopher 1 to 5 think, pick up left and right chopsticks, eat, and finish eating. In DiningPhilosophers, we have the main function, start new objects of Chopstick and Philosophers, randomize a food item for the five guys, let the threads sleep for just an instant to avoid a deadlock, show when the guys finish eating, and prompt the user to decide if another round of eating should start or exit.
+
+In both modules, threads as well as sequential multiplication run at different times but the randomized performance is consistent. In task 1, multi-threading runs consistently faster than sequential processing. In task 2, the philosophers pick chopsticks, eat, and finish in a randomized manner. While they essentially take turns to finish, they also avoid a deadlock, and everybody gets a chance to eat.
