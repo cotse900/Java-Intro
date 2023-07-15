@@ -10,4 +10,4 @@
 - WS08: double array functions
 - WS09: Levenshtein distance
 - WS10: matrices, dining philosophers
-- WS11: simulated chat server
+- WS11: [simulated chat server](https://github.com/cotse900/Instant-chat-server-Java)
